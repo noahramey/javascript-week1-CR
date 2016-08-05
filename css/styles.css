@@ -122,16 +122,24 @@ h3 {
   color: #e81c4f;
 }
 
-section {
-  margin: 0 auto;
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 input {
-  width: 10em;
-  align-self: center;
+  background-color: #f3f3f3;
+  color: white;
+  height: 23px;
+  width: 150px;
+  padding: 3px 5px 3px 5px;
+  border-radius: 5px;
 }
 
 button {
+  padding-top: 10px;
   border: 1px solid #e81c4f;
   border-radius: 290486px;
   background: #e81c4f;
