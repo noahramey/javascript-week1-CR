@@ -17,7 +17,6 @@
         <form id="user-lookup">
           <h3>Enter a GitHub Username and List off Repositories by that Account.</h3>
           <div>
-            <label for="name"></label>
             <input type="text" id="name">
           </div>
           <button type="submit" id="user-lookup">Find Repos</button>
@@ -25,9 +24,14 @@
       </div>
     </section>
     <section>
-      <ul id="repo-results">
-      </ul>
+      <table id="repo-results">
+        <tr class="table-header">
+          <td>Username</td>
+          <td>Repository</td>
+          <td>Description</td>
+        </tr>
+      </table>
     </section>
-    
+
   </body>
 </html>

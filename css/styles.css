@@ -130,16 +130,15 @@ h3 {
 }
 
 input {
-  background-color: #f3f3f3;
-  color: white;
+  background-color: #f2f2f2;
+  color: #e81c4f;
   height: 23px;
-  width: 150px;
+  width: 125px;
   padding: 3px 5px 3px 5px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 button {
-  padding-top: 10px;
   border: 1px solid #e81c4f;
   border-radius: 290486px;
   background: #e81c4f;
@@ -149,4 +148,22 @@ button {
   padding: 1em 2em;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-header {
+  height: 60px;
+  vertical-align: middle;
+  text-align: center;
+  color: #e81c4f;
 }
