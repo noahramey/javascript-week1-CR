@@ -15,22 +15,24 @@
     <section>
       <div class="form">
         <form id="user-lookup">
-          <h3>Enter a GitHub Username and List off Repositories by that Account.</h3>
+          <h3>Enter a GitHub username and see account details and repositories made by that user.</h3>
           <div>
             <input type="text" id="name">
           </div><br>
-          <button type="submit" id="user-lookup">Find Repos</button>
+          <button type="submit" id="user-lookup">Find User</button>
         </form>
       </div>
     </section>
-    <br>
-    <section>
+    <hr>
+    <section id="users">
+      <h3>Account Details</h3>
+      <div id="user-results">
+      </div>
+    </section>
+    <hr>
+    <section id="repos">
+    <h3>Repositories</h3>
       <table id="repo-results">
-        <tr class="table-header">
-          <td>Username</td>
-          <td>Repository</td>
-          <td>Description</td>
-        </tr>
       </table>
     </section>
 

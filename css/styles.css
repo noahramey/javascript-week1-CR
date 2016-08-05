@@ -166,3 +166,11 @@ td {
   text-align: center;
   color: #e81c4f;
 }
+
+#users, #repos {
+  display: none;
+}
+
+#user-results {
+  text-align: center;
+}
