@@ -63,8 +63,6 @@ a {
 
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  -moz-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
 }
 
 h1,
